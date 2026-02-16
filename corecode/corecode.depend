@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1771271325 source:c:\users\saba\corecode\corecode\2nd.c
+	<stdio.h>
+
+1771271467 source:c:\users\saba\corecode\corecode\main.c
+	<stdio.h>
+
