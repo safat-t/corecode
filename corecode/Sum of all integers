@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main(){
+    int sum=0;
+for (int i=9; i>1; --i)
+{sum=sum+i;}
+ printf("sum of the numbers: %d", sum);
+ return 0; }
