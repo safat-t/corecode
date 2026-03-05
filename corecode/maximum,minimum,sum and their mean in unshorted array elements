@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main(){
+int arr[] = {12, 45, 2, 89, 33};
+int n = 5;
+
+int max = arr[0];
+int min = arr[0];
+float sum = 0;
+
+for(int i=0; i<n; i++){
+    if(arr[i] > max) max=arr[i];
+    if(arr[i] < min) min=arr[i];
+
+    sum+=arr[i];}
+    printf("maximum:%d\n",max);
+    printf("minimum:%d\n",min);
+    printf("sum:%.0f\n",sum);
+    printf("mean:%.2f\n",sum/n);
+
+
+    return 0;
+}
