@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    int n;
+    long long sum=0, fact=1;
+
+    printf("enter your number: ");
+    scanf("%d",&n);
+    for(int i=1; i<=n; i++){
+        for(int j=1; j<=i; j++){
+            fact =fact + j;
+        } sum = sum + fact;
+    }
+
+  printf(" sumation of the given series is: %lld\n", sum);
+
+return 0;}
